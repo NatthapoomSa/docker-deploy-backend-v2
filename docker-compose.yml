@@ -1,7 +1,7 @@
 services:
   backend:
-    image: natthapoom/234-deploylab-backend:latest
+    image: natthapoom/234-deploylab-backend:new-grade
     pull_policy: always
     ports:
-      - "8082:8080"
+      - "8083:8080"
     restart: unless-stopped
